@@ -1,0 +1,177 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #ffffff;
+}
+
+body {
+    background-color: #040622;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    padding: 0 18vh;
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 a {
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+header nav h1 a:hover {
+    color: #e3d45f;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #e3d45f;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 8vh - 3vh);
+    padding: 0 18vh;
+}
+
+main section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main section .content {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section .content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main section .content h2 span {
+    color: #e3d45f;
+}
+
+main section .content h3 {
+    font-size: 24px;
+}
+
+main section .content p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+main section .content ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main section .content ul .download a {
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #e3d45f;
+    color: #040622;
+    border-radius: 25px;
+}
+
+main section .content ul .download a:hover {
+    background-color: #040622;
+    color: #e3d45f;
+    border: solid 1px #e3d45f;
+}
+
+main section .content ul .social {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+main section .content ul .social:hover {
+    transform: scale(1.1);
+}
+
+main section .content ul .social a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .content ul .social a:hover {
+    border: 1px solid #e3d45f;
+    border-radius: 50%;
+}
+
+main section .photo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section .photo div {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+main section .photo div:hover {
+    transform: scale(1.05);
+}
+
+main section .photo div img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 3vh;
+}
+
+footer p {
+    text-align: center;
+}
